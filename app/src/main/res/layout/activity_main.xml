@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="3dp"
+    android:orientation="vertical"
+    android:background="@color/layout_background"
+    tools:context="ln.retrofitapi.activity.DashboardActivity">
+
+    <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/rv_list"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:scrollbars="vertical"-->
+        <!--android:clipToPadding="false"-->
+        <!--app:layoutManager="android.support.v7.widget.LinearLayoutManager"-->
+        <!--android:layout_height="wrap_content">-->
+
+
+    <!--</android.support.v7.widget.RecyclerView>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:cardCornerRadius="3dp"
+            android:elevation="5dp"
+            app:cardElevation="5dp">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_object1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Object 1st"
+                android:background="@color/btn_background"
+                android:textSize="24sp"
+                android:textAllCaps="false"
+                android:padding="50dp"/>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:cardCornerRadius="3dp"
+            android:elevation="5dp"
+            app:cardElevation="5dp"
+            android:layout_marginLeft="10dp">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_object2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Object 2nd"
+                android:background="@color/btn_background"
+                android:textSize="24sp"
+                android:textAllCaps="false"
+                android:padding="50dp"/>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>
